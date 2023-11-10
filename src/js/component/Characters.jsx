@@ -33,7 +33,7 @@ export const Characters = ()=>{
                             <Link to={"/character/" + (id + 1)} class="btn btn-primary bg-green">Learn More</Link>
                             <>
                             <button>
-                            <a onClick={()=>favoriteClick(character, id)}>&#10084;</a>
+                            <a onClick={()=>favoriteClick(character, id)}>&#9829;</a>
                             </button>
                             </>
                         </div>

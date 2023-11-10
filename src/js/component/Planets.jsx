@@ -33,7 +33,7 @@ export const Planets = ()=>{
                                
                                 <>
                                 <button>
-                                    <a onClick={()=>favoriteClick(planet, id)}>&#10084;</a>
+                                    <a onClick={()=>favoriteClick(planet, id)}>&#9829;</a>
                                 </button>
                                 </>
                             </div>

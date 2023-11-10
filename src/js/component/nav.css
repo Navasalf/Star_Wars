@@ -1,7 +1,7 @@
 #nanavcontainer {
     display: flex;
     justify-content: space-between;
-    background: black;
+    background: #18181800;
   
 }
 
@@ -17,7 +17,7 @@
   
 body{
     font-size: 1.6rem;
-    background: url("https://lumiere-a.akamaihd.net/v1/images/image_1921b77b.jpeg") ;
+    background: url("https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-25_bc15ec98.jpeg?download=true") ;
     background-size: cover;
     background-position: center;
    
@@ -27,42 +27,41 @@ body{
   
  
   h1 {
-    color: yellow; /* Cambia el color del texto a amarillo */
+    color: hwb(0 76% 24%); /* Cambia el color del texto a amarillo */
     font-size: 6em; /* Aumenta el tamaño de la fuente (ajusta el valor según tus preferencias) */
     text-shadow: 10px 3px 2px black; /* Agrega una sombra negra con desplazamiento de 2px en X y 2px en Y */
 }
 
 h5{
-    color:black ;
+    color:hwb(0 76% 24%) ;
     font-weight: bold;
     font-size: 1.5em; 
-    text-shadow: 4px 6px 2px yellow;
+    text-shadow: hwb(0 76% 24%);
 }
 
 h4{
-    color: yellow; /* Cambia el color del texto a amarillo */
+    color: hwb(0 76% 24%); /* Cambia el color del texto a amarillo */
     font-size: 2em; /* Aumenta el tamaño de la fuente (ajusta el valor según tus preferencias) */
-    text-shadow: 10px 3px 2px black;
+    text-shadow: hwb(0 76% 24%);
 
 }
 th
 {
-    color:black;
+    color:hwb(0 76% 24%);
     font-weight: bold;
     font-size: 1.5em; 
-    text-shadow: 4px 6px 2px yellow;
+    text-shadow: hwb(0 76% 24%);
 }
 .card{
-    border-color: yellow;
-    border-style:dashed;
-    border-width: 5px;
+    border-color: hwb(0 76% 24%);
+    border-width: 2px;
     background-color: rgba(14, 35, 45, 0.94); 
 }
 p{
-    color:white;
+    color:hwb(0 76% 24%);
 }
 .imgcharacter{
-    border-color: yellow;
+    border-color: hwb(0 76% 24%);
     border-style:dashed;
     border-width: 7px;
     background-color: rgba(14, 35, 45, 0.94); 
